@@ -1,9 +1,6 @@
+This project allows you to track the price of an item on Amazon and receive an email notification when the price drops below a target price. 
+The program utilizes the 'beautiful soup' library to scrape data from the Amazon URL of the item. 
 
+To use the program, you must update the personal_setting.py file with your desired item and target price.
 
-This project checks if an item you are intrested in buying from Amazon is cheaper then a target price.
-Once it meets the target price the program will send an email letting you know the price has doppped. (uses 'beautyfull soup' gets the item's data from an Amazon url received).
-
-in order to use the program, change the data in personal_setting.py file 
-
-In order to use gmail you need your google security setting to be set according to the following:
-https://support.google.com/mail/answer/185833?hl=en-GB
+Additionally, to use Gmail for email notifications, you must update your Google security settings according to the instructions provided in this link: https://support.google.com/mail/answer/185833?hl=en-GB.
